@@ -1,1 +1,13 @@
-<p>generic works!</p>
+<!-- Generic Component Styled Like Animals -->
+<div class="container my-4" style="max-width: 720px;">
+  <div class="row g-3">
+    @for (generic of genVect; track generic) {
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="fruit-card">
+          <span class="fruit-emoji">{{ generic.emoji }}</span>
+          <span class="fruit-name">{{ generic.name }}</span>
+        </div>
+      </div>
+    }
+  </div>
+</div>

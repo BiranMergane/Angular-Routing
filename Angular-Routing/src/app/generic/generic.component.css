@@ -1,0 +1,27 @@
+.fruit-card {
+  border-radius: 1rem;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  padding: 1.2rem;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.fruit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.fruit-emoji {
+  font-size: 3rem;
+  user-select: none;
+}
+
+.fruit-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  flex-grow: 1;
+}
